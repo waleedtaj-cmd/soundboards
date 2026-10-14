@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لوحة الأصوات - Soundboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>لوحة الأصوات التفاعلية 🎵</h1>
+    
+    <div class="sound-container">
+        <!-- أزرار الأصوات، استبدل الأسماء وأسماء ملفات الصوت حسب رغبتك -->
+        <button class="sound-btn" data-sound="applause">تصفيق 👏</button>
+        <button class="sound-btn" data-sound="badumtss">طبلة سريعة 🥁</button>
+        <button class="sound-btn" data-sound="bruh">صوت Bruh 🤨</button>
+        <button class="sound-btn" data-sound="laugh">ضحكة 😆</button>
+    </div>
+
+    <!-- ملفات الصوت الفعلية -->
+    <audio id="applause" src="sounds/applause.mp3"></audio>
+    <audio id="badumtss" src="sounds/badumtss.mp3"></audio>
+    <audio id="bruh" src="sounds/bruh.mp3"></audio>
+    <audio id="laugh" src="sounds/laugh.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
